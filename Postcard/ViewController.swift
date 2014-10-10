@@ -35,6 +35,8 @@ class ViewController: UIViewController {
         textFieldName.text = ""
         textFieldName.resignFirstResponder()
         
+        
+        // Sent mail
         butttonSendMail.setTitle("Mail sent", forState: UIControlState.Normal)
     }
 
